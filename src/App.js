@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import Layout from './Layout';
-import Counter from './Counter';
+import React, { Component } from 'react'
+import Layout from './Layout'
+import Counter from './Counter'
 
 // If you use React Router, make this component
 // render <Router> with your routes. Currently,
@@ -15,6 +15,6 @@ export default class App extends Component {
       <Layout>
         <Counter />
       </Layout>
-    );
+    )
   }
 }
