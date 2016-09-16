@@ -1,12 +1,10 @@
 import React from 'react'
-import { LinkHelper } from './routes'
 import Counter from './Counter'
 
 export default function Layout({ children }) {
   return (
     <div>
-      <h1>Hello, world!</h1>
-      <LinkHelper to={'game'}/>
+      <h1>Hello, again!!!!!!!!!!!!!!!</h1>
       <Counter />
       {children}
     </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
+import Root from './Root'
 import Layout from './Layout'
-import Counter from './Counter'
 
 // If you use React Router, make this component
 // render <Router> with your routes. Currently,
@@ -12,9 +12,11 @@ import Counter from './Counter'
 export default class App extends Component {
   render() {
     return (
-      <Layout>
-        <Counter />
-      </Layout>
+      <Root>
+        <Layout>
+
+        </Layout>
+      </Root>
     )
   }
 }
